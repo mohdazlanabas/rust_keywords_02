@@ -15,9 +15,10 @@ The application calculates geometric properties (area and perimeter) for differe
 ## App Structure/Architecture
 
 ```
-rust_keywords_demo/
+rust_keywords_02/
 ├── Cargo.toml                 # Project configuration
 ├── README.md                  # This file
+├── TESTING.md                 # Testing documentation
 └── src/
     ├── main.rs                # Entry point, demonstrates mod keyword
     ├── shapes.rs              # Module with enum, trait, and const
@@ -93,7 +94,6 @@ Exits a function early when conditions are met, avoiding deep nesting and improv
 
 ### Build the Project
 ```bash
-cd ~/rust_keywords_demo
 cargo build
 ```
 
@@ -154,7 +154,7 @@ cargo test
 ```bash
 cargo build --release
 ```
-Binary will be in `target/release/rust_keywords_demo`
+The optimized binary will be located at `target/release/rust_keywords_demo`
 
 ## Key Concepts Illustrated
 
